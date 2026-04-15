@@ -1,0 +1,140 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B001 /* CalmMomentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F001 /* CalmMomentApp.swift */; };
+		B002 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002 /* RootView.swift */; };
+		B003 /* AppModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F003 /* AppModels.swift */; };
+		B004 /* LocalContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004 /* LocalContent.swift */; };
+		B005 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F005 /* AppViewModel.swift */; };
+		B006 /* ReliefToolsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F006 /* ReliefToolsStore.swift */; };
+		B007 /* TriageResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F007 /* TriageResolver.swift */; };
+		B008 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F008 /* OnboardingView.swift */; };
+		B009 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F009 /* HomeView.swift */; };
+		B010 /* TriageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F010 /* TriageView.swift */; };
+		B011 /* RecognitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F011 /* RecognitionView.swift */; };
+		B012 /* ProtocolSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012 /* ProtocolSelectionView.swift */; };
+		B013 /* ProtocolGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F013 /* ProtocolGuideView.swift */; };
+		B014 /* CheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F014 /* CheckInView.swift */; };
+		B015 /* SavedToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F015 /* SavedToolsView.swift */; };
+		B016 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F016 /* SettingsView.swift */; };
+		B017 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F017 /* PrimaryButton.swift */; };
+		B018 /* StateCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F018 /* StateCard.swift */; };
+		B019 /* StepListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F019 /* StepListView.swift */; };
+		B020 /* TriageResolverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F020 /* TriageResolverTests.swift */; };
+		B021 /* AppViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F021 /* AppViewModelTests.swift */; };
+		B022 /* CalmMomentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F022 /* CalmMomentUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		P001 = {isa = PBXContainerItemProxy; containerPortal = P_ROOT; proxyType = 1; remoteGlobalIDString = T_APP; remoteInfo = CalmMoment; };
+		P002 = {isa = PBXContainerItemProxy; containerPortal = P_ROOT; proxyType = 1; remoteGlobalIDString = T_APP; remoteInfo = CalmMoment; };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F001 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalmMomentApp.swift; sourceTree = "<group>"; };
+		F002 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/RootView.swift; sourceTree = "<group>"; };
+		F003 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/AppModels.swift; sourceTree = "<group>"; };
+		F004 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content/LocalContent.swift; sourceTree = "<group>"; };
+		F005 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels/AppViewModel.swift; sourceTree = "<group>"; };
+		F006 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/ReliefToolsStore.swift; sourceTree = "<group>"; };
+		F007 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/TriageResolver.swift; sourceTree = "<group>"; };
+		F008 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Onboarding/OnboardingView.swift; sourceTree = "<group>"; };
+		F009 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Home/HomeView.swift; sourceTree = "<group>"; };
+		F010 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Triage/TriageView.swift; sourceTree = "<group>"; };
+		F011 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/StateFlow/RecognitionView.swift; sourceTree = "<group>"; };
+		F012 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/StateFlow/ProtocolSelectionView.swift; sourceTree = "<group>"; };
+		F013 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/StateFlow/ProtocolGuideView.swift; sourceTree = "<group>"; };
+		F014 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/StateFlow/CheckInView.swift; sourceTree = "<group>"; };
+		F015 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Saved/SavedToolsView.swift; sourceTree = "<group>"; };
+		F016 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Settings/SettingsView.swift; sourceTree = "<group>"; };
+		F017 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components/PrimaryButton.swift; sourceTree = "<group>"; };
+		F018 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components/StateCard.swift; sourceTree = "<group>"; };
+		F019 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components/StepListView.swift; sourceTree = "<group>"; };
+		F020 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalmMomentTests/TriageResolverTests.swift; sourceTree = SOURCE_ROOT; };
+		F021 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalmMomentTests/AppViewModelTests.swift; sourceTree = SOURCE_ROOT; };
+		F022 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalmMomentUITests/CalmMomentUITests.swift; sourceTree = SOURCE_ROOT; };
+		F_APP = {isa = PBXFileReference; explicitFileType = wrapper.application; path = CalmMoment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F_TEST = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = CalmMomentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F_UITEST = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = CalmMomentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FW_APP = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		FW_TEST = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		FW_UITEST = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		G_MAIN = {isa = PBXGroup; children = (G_APP, G_TESTS, G_UITESTS, G_PRODUCTS); sourceTree = "<group>"; };
+		G_APP = {isa = PBXGroup; path = CalmMoment; sourceTree = SOURCE_ROOT; children = (F001,F002,F003,F004,F005,F006,F007,F008,F009,F010,F011,F012,F013,F014,F015,F016,F017,F018,F019); };
+		G_TESTS = {isa = PBXGroup; path = CalmMomentTests; sourceTree = SOURCE_ROOT; children = (F020,F021); };
+		G_UITESTS = {isa = PBXGroup; path = CalmMomentUITests; sourceTree = SOURCE_ROOT; children = (F022); };
+		G_PRODUCTS = {isa = PBXGroup; name = Products; sourceTree = "<group>"; children = (F_APP,F_TEST,F_UITEST); };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		T_APP = {isa = PBXNativeTarget; buildConfigurationList = C_APP_TARGET; buildPhases = (S_APP, FW_APP); buildRules = (); dependencies = (); name = CalmMoment; productName = CalmMoment; productReference = F_APP; productType = "com.apple.product-type.application"; };
+		T_TEST = {isa = PBXNativeTarget; buildConfigurationList = C_TEST_TARGET; buildPhases = (S_TEST, FW_TEST); buildRules = (); dependencies = (D_TEST); name = CalmMomentTests; productName = CalmMomentTests; productReference = F_TEST; productType = "com.apple.product-type.bundle.unit-test"; };
+		T_UITEST = {isa = PBXNativeTarget; buildConfigurationList = C_UITEST_TARGET; buildPhases = (S_UITEST, FW_UITEST); buildRules = (); dependencies = (D_UITEST); name = CalmMomentUITests; productName = CalmMomentUITests; productReference = F_UITEST; productType = "com.apple.product-type.bundle.ui-testing"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		P_ROOT = {
+			isa = PBXProject;
+			attributes = { LastUpgradeCheck = 1600; TargetAttributes = {}; };
+			buildConfigurationList = C_PROJECT;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base);
+			mainGroup = G_MAIN;
+			productRefGroup = G_PRODUCTS;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (T_APP, T_TEST, T_UITEST);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		S_APP = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (B001,B002,B003,B004,B005,B006,B007,B008,B009,B010,B011,B012,B013,B014,B015,B016,B017,B018,B019); runOnlyForDeploymentPostprocessing = 0; };
+		S_TEST = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (B020,B021); runOnlyForDeploymentPostprocessing = 0; };
+		S_UITEST = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (B022); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D_TEST = {isa = PBXTargetDependency; target = T_APP; targetProxy = P001; };
+		D_UITEST = {isa = PBXTargetDependency; target = T_APP; targetProxy = P002; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BC_PROJECT_DEBUG = {isa = XCBuildConfiguration; buildSettings = { SWIFT_VERSION = 5.0; IPHONEOS_DEPLOYMENT_TARGET = 17.0; }; name = Debug; };
+		BC_PROJECT_RELEASE = {isa = XCBuildConfiguration; buildSettings = { SWIFT_VERSION = 5.0; IPHONEOS_DEPLOYMENT_TARGET = 17.0; }; name = Release; };
+
+		BC_APP_DEBUG = {isa = XCBuildConfiguration; buildSettings = { PRODUCT_BUNDLE_IDENTIFIER = com.example.CalmMoment; PRODUCT_NAME = "$(TARGET_NAME)"; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait"; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; MARKETING_VERSION = 1.0; GENERATE_INFOPLIST_FILE = YES; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; SWIFT_EMIT_LOC_STRINGS = YES; TARGETED_DEVICE_FAMILY = 1; }; name = Debug; };
+		BC_APP_RELEASE = {isa = XCBuildConfiguration; buildSettings = { PRODUCT_BUNDLE_IDENTIFIER = com.example.CalmMoment; PRODUCT_NAME = "$(TARGET_NAME)"; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait"; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; MARKETING_VERSION = 1.0; GENERATE_INFOPLIST_FILE = YES; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; SWIFT_EMIT_LOC_STRINGS = YES; TARGETED_DEVICE_FAMILY = 1; }; name = Release; };
+
+		BC_TEST_DEBUG = {isa = XCBuildConfiguration; buildSettings = { PRODUCT_BUNDLE_IDENTIFIER = com.example.CalmMomentTests; PRODUCT_NAME = "$(TARGET_NAME)"; GENERATE_INFOPLIST_FILE = YES; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalmMoment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CalmMoment"; BUNDLE_LOADER = "$(TEST_HOST)"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"; }; name = Debug; };
+		BC_TEST_RELEASE = {isa = XCBuildConfiguration; buildSettings = { PRODUCT_BUNDLE_IDENTIFIER = com.example.CalmMomentTests; PRODUCT_NAME = "$(TARGET_NAME)"; GENERATE_INFOPLIST_FILE = YES; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalmMoment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CalmMoment"; BUNDLE_LOADER = "$(TEST_HOST)"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"; }; name = Release; };
+
+		BC_UITEST_DEBUG = {isa = XCBuildConfiguration; buildSettings = { PRODUCT_BUNDLE_IDENTIFIER = com.example.CalmMomentUITests; PRODUCT_NAME = "$(TARGET_NAME)"; GENERATE_INFOPLIST_FILE = YES; TEST_TARGET_NAME = CalmMoment; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"; }; name = Debug; };
+		BC_UITEST_RELEASE = {isa = XCBuildConfiguration; buildSettings = { PRODUCT_BUNDLE_IDENTIFIER = com.example.CalmMomentUITests; PRODUCT_NAME = "$(TARGET_NAME)"; GENERATE_INFOPLIST_FILE = YES; TEST_TARGET_NAME = CalmMoment; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C_PROJECT = {isa = XCConfigurationList; buildConfigurations = (BC_PROJECT_DEBUG, BC_PROJECT_RELEASE); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		C_APP_TARGET = {isa = XCConfigurationList; buildConfigurations = (BC_APP_DEBUG, BC_APP_RELEASE); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		C_TEST_TARGET = {isa = XCConfigurationList; buildConfigurations = (BC_TEST_DEBUG, BC_TEST_RELEASE); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		C_UITEST_TARGET = {isa = XCConfigurationList; buildConfigurations = (BC_UITEST_DEBUG, BC_UITEST_RELEASE); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = P_ROOT;
+}
